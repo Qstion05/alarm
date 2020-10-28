@@ -7,7 +7,7 @@ def command(): #알람 작동시 실행시킬 함수
 	url = "naver.com" 
 	webbrowser.open(url)
 
-def alarm(): 
+def alarm(): #알람이 실행되는 함수.
 	now = datetime.now()
 	check_hour = int(now.hour)	
 	if alram_Hour == check_hour: 
